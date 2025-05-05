@@ -17,6 +17,21 @@
       height: 200px;
       background-color: #3f3f3f;
       position: relative;
+      display: flex;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .header-image {
+      height: 120px; /* 60% of 200px */
+      width: auto;
+      margin-right: 20px;
+    }
+
+    .header-title {
+      color: white;
+      font-size: 36px;
+      font-weight: bold;
     }
 
     .gold-strip {
@@ -65,6 +80,10 @@
 <body>
 
   <div class="header">
+    <!-- Replace the src with your actual image path -->
+    <img src="your-logo.png" alt="Logo" class="header-image" />
+    <div class="header-title">Game Title</div>
+
     <div class="gold-strip"></div>
     <div class="header-border"></div>
   </div>
